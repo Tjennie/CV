@@ -61,12 +61,6 @@ text-align: left;
 width: 70%;
 Font-weight:bold; 
 }
-table, th, td {
-  border:1px solid #9900ff;
-  font-size:24px;
-  color: #000000;
-  line-height:50px;
-}
 p{
   list-style-type: none;
   margin: 0;
@@ -98,6 +92,54 @@ background-image: url(" https://scpic.chinaz.net/files/pic/pic9/201804/bpic6536.
 background-size: cover;
 background-position: left;
 height: 800px;
+}
+caption{
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color: green;
+  margin-bottom: 16px;
+}
+thead {
+	background-color: #333;
+	color: white;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+body{
+  font-family: sans-serif;
+}
+th,td{
+  border: 1px solid black;
+  padding: 8px;
+}
+table{
+  border-collapse: collapse;
+  border: 3px solid purple;
+  text-align: center;
+  vertical-align: middle;
+}
+thead th{
+  width: 25%;
+}
+.cell-highlight{
+  background-color: gold;
+  font-weight: bold;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+tbody th {
+  background-color: #36c;
+  color: #fff;
+  text-align: left;
+}
+tbody tr:nth-child(even) th {
+  background-color: #25c;
 }
 .footer{
  width: 100%;
